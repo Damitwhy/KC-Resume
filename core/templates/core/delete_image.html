@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="delete-container">
+    <div class="delete-box">
+        <h2>Delete Image</h2>
+        <p class="delete-message">Are you sure you want to delete this image?</p>
+        <form method="post">
+            {% csrf_token %}
+            <button type="submit" class="button btn btn-outline-dark">Delete</button>
+        </form>
+        <a href="{% url 'gallery' %}" class="mx-3 my-2 button btn btn-outline-dark">No</a>
+    </div>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="login-container">
+    <div class="login-box">
+        <div class="header-bar">
+            <h1>Register</h1>
+        </div>
+
+        <div class="card-body">
+            <form method="POST">
+                {% csrf_token %}
+                
+                <div class="form-group">
+                    {{ form.username.label_tag }} 
+                    {{ form.username }}
+                    {% if form.username.errors %}
+                        <div class="error text-danger">
+                            {{ form.username.errors }}
+                        </div>
+                    {% endif %}
+                    <span class="helptext">{{ form.username.help_text }}</span>
+                </div>
+
+                <div class="form-group">
+                    {{ form.password1.label_tag }} 
+                    {{ form.password1 }}
+                    {% if form.password1.errors %}
+                        <div class="error text-danger">
+                            {{ form.password1.errors }}
+                        </div>
+                    {% endif %}
+                    <span class="helptext">{{ form.password1.help_text }}</span>
+                </div>
+
+                <div class="form-group">
+                    {{ form.password2.label_tag }} 
+                    {{ form.password2 }}
+                    {% if form.password2.errors %}
+                        <div class="error text-danger">
+                            {{ form.password2.errors }}
+                        </div>
+                    {% endif %}
+                    <span class="helptext">{{ form.password2.help_text }}</span>
+                </div>
+                
+                <input class="button btn btn-outline-dark" type="submit" value="Register">
+            </form>
+        </div>
+
+        <p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
+        <a href="{% url 'gallery' %}" class="mx-3 my-2 button btn btn-outline-dark">Back</a>
+    </div>
+</div>
+
+<style>
+    p {
+        margin-top: 15px;
+        color: #555;
+    }
+
+    p a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    p a:hover {
+        text-decoration: underline;
+    }
+
+    .error {
+        color: red;
+        font-size: 14px;
+    }
+</style>
+
+{% endblock content %}
