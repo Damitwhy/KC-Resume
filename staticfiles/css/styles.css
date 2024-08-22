@@ -1,173 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .banner {
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .banner .slider {
-    position: absolute;
-    width: 200px;
-    height: 250px;
-    top: 10%;
-    left: calc(50% - 100px);
-    transform-style: preserve-3d;
-    transform: perspective(1000px);
-    animation: autoRun 20s linear infinite;
-    z-index: 2;
-  }
-  @keyframes autoRun {
-    from {
-      transform: perspective(1000px) rotateY(0deg);
-    }
-    to {
-      transform: perspective(1000px) rotateY(360deg);
-    }
-  }
-  
-  .banner .slider .item {
-    position: absolute;
-    inset: 0 0 0 0;
-    transform: rotateY(
-        calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
-      )
-      translateZ(550px);
-  }
-  
-  .banner .slider .item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .banner .slider .item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .banner .content {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(1400px, 100vw);
-    height: max-content;
-    padding-bottom: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
-  }
-  
-  .banner .content .author {
-    font-family: Poppins;
-    text-align: right;
-    max-width: 200px;
-    z-index: 3;
-  }
-  .banner .content h2 {
-    font-size: 3em;
-  }
-  .banner .content .model {
-    background-image: url('../images/main.png');
-    width: 100%;
-    height: 80vh;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-size: auto 130%;
-    background-repeat: no-repeat;
-    background-position: top center;
-    z-index: 1;
-  }
-
-  .mb-3, .my-3 {
-     margin-bottom: 0 !important; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-  h2 {
-    font-family: 'poppins', sans-serif;
-}
-li{
-    font-family: 'poppins', sans-serif;
-    font-weight: 300;
-}
-.art-one .row-text {
-    justify-content: center;
-}
-.art-one .btn {
-    padding: .5em 1.5em;
-    border-radius: 2em;
-    
-}
-/* section 2 text and image  */
-.art-two .btn {
-    padding: .5em 1.5em;
-    border-radius: 2em;
-}
-
-
-.info-top {
-  display: flex;
-  justify-content: flex-end; /* Aligns items to the right */
-  margin-top: 20px; /* Adds margin to the top of the container */
-  position: -webkit-sticky; /* For Safari */
-  position: sticky;
-  top: 0;
-  z-index: 1000; /* Ensure it stays above other content */
-  background-color: white; /* Optional: to ensure it doesn't become transparent */
-  padding: 10px; /* Optional: to add some padding */
-}
-
-.info-top a {
-  margin-left: 10px; /* Adds space between the buttons */
-  text-decoration: none; /* Optional: Removes underline from links */
-}
-
-
-.topics .topic {
-  text-align: center; /* Center text and inline elements inside the .topic */
-  display: flex;
-  flex-direction: column; /* Arrange children in a column */
-  align-items: center; /* Center children horizontally */
-  justify-content: center; /* Center children vertically */
-  height: 100%; /* Make sure the div takes up the full height */
-}
-
-.topics .topic img {
-  max-width: 100%; /* Ensure the image is responsive */
-  height: auto;
-  margin-bottom: 15px; /* Add margin below the image */
-}
-
-.topics .topic h3 {
-  margin-bottom: 10px; /* Add margin below the heading */
-}
-
-.topics .topic p {
-  margin-bottom: 15px; /* Add margin below the paragraph */
-}
-
-.topics .topic .btn-group {
-  display: flex; /* Display the buttons in a row */
-  gap: 10px; /* Add space between the buttons */
-}
-
-.topics .topic a {
-  text-decoration: none; /* Remove underline from links */
-}
-
-.topics .topic .btn {
-  display: inline-flex; /* Align icon and text inside the button */
-  align-items: center; /* Vertically center the content in the button */
-  justify-content: center;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
 }
 
 .login-container {
@@ -178,7 +20,6 @@ li{
   padding-top: 50px; 
   padding-bottom: 50px; 
 }
-
 
 .login-box {
   width: 100%;
@@ -268,169 +109,6 @@ li{
   border-radius: 8px;
 }
 
-.comments {
-  margin-bottom: 20px;
-}
-
-.comment {
-  margin-bottom: 15px;
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
-}
-
-.comment-form {
-  margin-top: 20px;
-}
-
-.comment-form h2 {
-  margin-bottom: 15px;
-}
-
-.comment a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.comment a:hover {
-  text-decoration: underline;
-}
-
-.logout-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; /* Ensures full viewport height to center the content */
-}
-
-.logout-box {
-  width: 100%;
-  max-width: 400px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.logout-message {
-  font-size: 18px;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.form-group {
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.form-group label {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-.delete-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; /* Ensures the content is centered vertically */
-  padding-top: 50px; /* Space from the top */
-  padding-bottom: 50px; /* Space from the bottom */
-}
-
-.delete-box {
-  width: 100%;
-  max-width: 400px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.delete-message {
-  font-size: 18px;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-/* login page  */
-.header-bar h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.login-box p {
-  margin-top: 15px;
-  color: #555;
-}
-
-.login-box p a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.login-box p a:hover {
-  text-decoration: underline;
-}
-
-.card-body {
-  margin-bottom: 20px;
-}
-
-.card-body form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.card-body p {
-  margin-bottom: 20px;
-}
-
-/* Input field styling within login card */
-.card-body input {
-  border: 1px solid gray;
-  padding: 10px;
-  border-radius: 25px;
-  text-decoration: none;  
-  background-color: transparent; 
-  transition: all 0.3s ease;
-}
-
-/* Hover effect for input fields */
-.card-body input:hover {
-  color: white; 
-  background-color: #292929;
-}
-
-/* register page  */
-form label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.helptext {
-  display: block;
-  font-size: 12px;
-  color: #777;
-  font-size: 0.9em;
-  margin-top: 10px;
-}
-
 .messages {
   text-align: center;
   list-style-type: none;
@@ -497,71 +175,32 @@ form label {
 
 @media (max-width: 768px) {
   .topic {
-      padding: 2em;
+      
       text-align: center;
   }
 }
 @media (max-width: 576px) {
   .topic {
-      padding: 2em;
+      
       text-align: center;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .banner .slider {
-    width: 160px;
-    height: 200px;
-    left: calc(50% - 80px);
-  }
-  .banner .slider .item {
-    transform: rotateY(
-        calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
-      ) translateZ(300px);
-  }
-  .art-text-one, 
-  .art-text-two {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 170px !important;
+  .topic {
+    margin 0;
   }
 }
 
 @media screen and (max-width: 810px) {
-  .art-one {
-    padding: 2em;
-    text-align: center;
-  }
-  .art-two {
-    padding: 2em;
-    text-align: center;
+  .topic {
+    margin 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .banner .slider {
-    width: 100px;
-    height: 150px;
-    left: calc(50% - 50px);
-  }
-  .banner .slider .item {
-    transform: rotateY(
-        calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
-      ) translateZ(180px);
-  }
-  
-  .head1 {
-    font-size: 40px;
-  }
-
-  .art-one {
-    padding: 2em;
-    text-align: center;
-  }
-  .art-two {
-    padding: 2em;
-    text-align: center;
+  .topic {
+    margin 0;
   }
 }
 
