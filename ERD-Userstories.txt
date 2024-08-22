@@ -1,0 +1,51 @@
+User Story 1: Login to View Contact Messages
+As a site owner, I want to log in to see who has sent messages to the contact page that were uploaded to the database.
+Acceptance Criteria:
+1. Given I am on the login page, when I enter valid credentials and click “Login,” then I should be redirected to the dashboard. 
+2. Given I am logged in, when I navigate to the “Contact Messages” section, then I should see a list of all messages with the sender’s name, email, and message content. 
+User Story 2: Update Resume Skills
+As a site owner, I want to update my resume skills as I acquire them.
+Acceptance Criteria:
+1. Given I am logged in, when I navigate to the “Edit Resume” section, then I should see a form to add, edit, or delete skills. 
+2. Given I have added a new skill and clicked “Save,” when I view my public resume page, then the new skill should be displayed in the skills section. 
+User Story 3: View Public Resume
+As a visitor, I want to view the site owner’s resume to learn about their skills and experience.
+Acceptance Criteria:
+1. Given I am on the homepage, when I click on the “Resume” link, then I should be taken to the resume page displaying the site owner’s skills, experience, and contact information. 
+2. Given I am on the resume page, when I scroll through the sections, then I should see the skills, experience, education, and projects listed in a clear and organized manner. 
+User Story 4: Contact Form Submission
+As a visitor, I want to send a message to the site owner through the contact form.
+Acceptance Criteria:
+1. Given I am on the contact page, when I fill out the form with my name, email, and message and click “Send,” then I should see a confirmation message that my message has been sent. 
+2. Given I have submitted a message, when the site owner logs in and views the “Contact Messages” section, then my message should be listed with my name, email, and message content. 
+These user stories and acceptance criteria should help you get started with your project. If you need more details or additional stories, feel free to ask!
+
+
+
+Tables and Relationships
+1. User
+Attributes: user_id (Primary Key), username, password, email
+Relationships: One-to-Many with ContactMessage, One-to-Many with Skill
+2. ContactMessage
+Attributes: message_id (Primary Key), user_id (Foreign Key), name, email, message, timestamp, read (Boolean)
+Relationships: Many-to-One with User
+3. Skill
+Attributes: skill_id (Primary Key), user_id (Foreign Key), skill_name, proficiency_level
+Relationships: Many-to-One with User
+Updated ERD Diagram
+Here’s the updated textual representation of the ERD:
++----------------+       +-------------------+       +----------------+
+|     User       |       |  ContactMessage   |       |     Skill      |
++----------------+       +-------------------+       +----------------+
+| user_id (PK)   |<----->| user_id (FK)      |<----->| user_id (FK)   |
+| username       |       | message_id (PK)   |       | skill_id (PK)  |
+| password       |       | name              |       | skill_name     |
+| email          |       | email             |       | proficiency_level|
++----------------+       | message           |       +----------------+
+                         | timestamp         |
+                         | read (Boolean)    |
+                         +-------------------+
+Explanation
+User Table: Stores user credentials and information.
+ContactMessage Table: Stores messages sent through the contact form, linked to the user who received the message. The read attribute indicates whether the message has been read.
+Skill Table: Stores skills associated with the user, allowing for updates as new skills are acquired.
