@@ -13,7 +13,25 @@ body {
   line-height: 1.6;
   color: #ffffff;
   background-color: #000000;
-  background-image: url(../images/backgrounds/pexels-josh-hild-1270765-16248189.jpg);
+  background-image: url("../images/backgrounds/pexels-ritesh-singh-64833387-14570124.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 5px;
+
+}
+
+.container-main img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 /* pacifico font */
 .pacifico-regular {
