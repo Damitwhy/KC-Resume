@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = os.environ.get("DEBUG", "") == "1"
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost',
-                 '.ws.codeinstitute-ide.net', '.herokuapp.com']
+                 '.ws.codeinstitute-ide.net', '.herokuapp.com','purerarez.co.uk']
 
 # Specify the custom user model
 AUTH_USER_MODEL = 'core.User'
@@ -150,6 +150,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.codeinstitute-ide.net",
     "https://*.herokuapp.com",
     "http://localhost:8000",
+    "https://purerarez.co.uk",
 ]
 
 
