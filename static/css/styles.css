@@ -12,10 +12,19 @@ body {
   line-height: 1.6;
   color: #ffffff;
   background-color: #000000;
-  background-image: url("../images/backgrounds/pexels-ritesh-singh-64833387-14570124.jpg");
+  /* background-image: url("../images/backgrounds/pexels-ritesh-singh-64833387-14570124.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.container-main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 5px;
 }
 .container-main {
   display: flex;

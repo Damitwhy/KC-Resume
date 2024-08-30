@@ -17702,3 +17702,23 @@ Traceback (most recent call last):
 django.template.base.VariableDoesNotExist: Failed lookup for key [href] in {'type': 'submit', 'tags': ['prominent', 'login']}
 (0.023) SELECT "socialaccount_socialapp"."id", "socialaccount_socialapp"."provider", "socialaccount_socialapp"."provider_id", "socialaccount_socialapp"."name", "socialaccount_socialapp"."client_id", "socialaccount_socialapp"."secret", "socialaccount_socialapp"."key", "socialaccount_socialapp"."settings" FROM "socialaccount_socialapp" INNER JOIN "socialaccount_socialapp_sites" ON ("socialaccount_socialapp"."id" = "socialaccount_socialapp_sites"."socialapp_id") WHERE "socialaccount_socialapp_sites"."site_id" = 1; args=(1,); alias=default
 "GET /accounts/login/ HTTP/1.1" 200 2271
+"GET / HTTP/1.1" 200 4876
+"GET / HTTP/1.1" 200 4876
+"GET /static/css/styles.css HTTP/1.1" 200 5480
+"GET /static/images/backgrounds/pexels-josh-hild-1270765-16248189.jpg HTTP/1.1" 200 1892749
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1724458384.109508, current mtime: 1725029078.0678878
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725029078.0678878, current mtime: 1725029412.0172536
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725029412.0172536, current mtime: 1725029481.880701
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 4876
+"GET /static/css/styles.css HTTP/1.1" 200 5637
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725029481.880701, current mtime: 1725029539.156244
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 4876
+"GET /static/css/styles.css HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725029539.156244, current mtime: 1725029570.523996
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 4876
