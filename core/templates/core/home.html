@@ -19,36 +19,34 @@
             </div>
             <div class="container-info contact-info">
                 <h2 class="text-center">Contact</h2>
-                <p>Phone:</p>
-                <p>Email:</p>
-                <p>location:</p>
+                <p>Phone: {{ contact_info.phone }}</p>
+                <p>Email: {{ contact_info.email }}</p>
+                <p>Location: {{ contact_info.location }}</p>
             </div>
             <div class="container-info education-info">
                 <h2 class="text-center">Education</h2>
-                <p>Diploma: Full Stack Software Development with Code Institute.</p>
-                <p>Open University: 1st Year of (BSc) Physics & Mathematics</p>
+                {% for edu in education_info %}
+                    <p>{{ edu.degree }}: {{ edu.institution }}</p>
+                {% endfor %}
             </div>
             <div class="container-info skills-info">
                 <h2 class="text-center">Expertise</h2>
-                <p>Python</p>
-                <p>Django</p>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>React</p>
+                {% for skill in expertise_info %}
+                    <p>{{ skill.skill }}</p>
+                {% endfor %}
             </div>
             <div class="container-info language-info">
                 <h2 class="text-center">Language</h2>
-                <p class="text-left">English</p>
+                {% for lang in language_info %}
+                    <p class="text-left">{{ lang.language }}</p>
+                {% endfor %}
             </div>
         </div>
         <!-- right-side-main -->
         <div class="right-side-main col-sm-12 col-md-8">
             <div class="container-info aboutme-info">
                 <h2 class="text-center">About Me</h2>
-                <p class="text-center">Welcome to my playground. Here you can find information about who I am, my
-                    projects,
-                    and how to contact me.</p>
+                <p class="text-center">{{ about_me_info.description }}</p>
             </div>
             <div class="container-info projects-info">
                 <h2 class="text-center">Projects</h2>
@@ -60,23 +58,17 @@
             </div>
             <div class="container-info reference-info">
                 <h2 class="text-center">References</h2>
-                <div class="row">
-                    <div class="reference-block col-6">
-                        <h3>Name Surname</h3>
-                        <p>Company</p>
-                        <p>Phone</p>
-                        <p>Email</p>
+                {% for ref in references %}
+                    <div class="row">
+                        <div class="reference-block col-6">
+                            <h3>{{ ref.name }}</h3>
+                            <p>{{ ref.relationship }}</p>
+                            <p>{{ ref.contact }}</p>
+                        </div>
                     </div>
-                    <div class="reference-block col-6">
-                        <h3>Name Surname</h3>
-                        <p>Company</p>
-                        <p>Phone</p>
-                        <p>Email</p>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
 </div>
-
 {% endblock %}

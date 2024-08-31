@@ -25,3 +25,32 @@ class Skill(models.Model):
 
     def __str__(self):
         return f"{self.skill_name} ({self.proficiency_level})"
+
+class ContactInfo(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='contact_info')
+    phone = models.CharField(max_length=15)
+    email = models.EmailField()
+    location = models.CharField(max_length=100)
+
+class EducationInfo(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='education_info')
+    degree = models.CharField(max_length=100)
+    institution = models.CharField(max_length=100)
+
+class ExpertiseInfo(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='expertise_info')
+    skill = models.CharField(max_length=50)
+
+class LanguageInfo(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='language_info')
+    language = models.CharField(max_length=50)
+
+class AboutMeInfo(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='about_me_info')
+    description = models.TextField()
+
+class Reference(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='references')
+    name = models.CharField(max_length=100)
+    contact = models.CharField(max_length=100)
+    relationship = models.CharField(max_length=100)

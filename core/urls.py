@@ -5,6 +5,6 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('projects/', views.projects, name='projects'),
     path('contact/', views.contact, name='contact'),
-    path('accounts/', include('allauth.urls')),  # Include allauth URLs
+    #path('accounts/', include('allauth.urls')),  # Include allauth URLs
 ]
       
