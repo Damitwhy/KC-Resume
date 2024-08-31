@@ -77,6 +77,33 @@ body {
 @keyframes scroll-watcher {
   to {scale: 1 1;}
 } */
+.scroll-reveal span {
+  color: hsl(0 0% 100% / 0.2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 0% 100%;
+  background-image: linear-gradient(90deg, white, white);
+  animation: scroll-reveal linear forwards;
+  animation-timeline: view();
+}
+
+.scroll-reveal h2 span {
+  animation-range-start: contain 20vh;
+  animation-range-end: contain 30vh;
+}
+
+.scroll-reveal p span {
+  animation-range-start: contain 20vh;
+  animation-range-end: contain 30vh;
+}
+
+@keyframes scroll-reveal {
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+
 .article-header {
   display: grid;
   place-items: center;

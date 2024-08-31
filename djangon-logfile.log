@@ -18095,3 +18095,45 @@ File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 17250628
 "GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 200 235762
 "GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
 "GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 200 218521
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 200 8736
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8395
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725064290.7026587, current mtime: 1725071002.9738114
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 8394
+"GET /static/css/styles.css HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725071002.9738114, current mtime: 1725071090.421127
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 8531
+"GET /static/css/styles.css HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725071090.421127, current mtime: 1725071135.460773
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 8544
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8544
+"GET /static/css/styles.css HTTP/1.1" 200 8736
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8544
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 200 8738
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8544
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725071135.460773, current mtime: 1725071711.3282323
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 8544
+"GET /static/css/styles.css HTTP/1.1" 200 8739
