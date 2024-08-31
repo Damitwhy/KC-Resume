@@ -1,3 +1,5 @@
+Agile work flow: every thing subject to change:
+
 User Story 1: Login to View Contact Messages
 As a site owner, I want to log in to see who has sent messages to the contact page that were uploaded to the database.
 Acceptance Criteria:
@@ -49,3 +51,4 @@ Explanation
 User Table: Stores user credentials and information.
 ContactMessage Table: Stores messages sent through the contact form, linked to the user who received the message. The read attribute indicates whether the message has been read.
 Skill Table: Stores skills associated with the user, allowing for updates as new skills are acquired.
+

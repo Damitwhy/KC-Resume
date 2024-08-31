@@ -17722,3 +17722,376 @@ File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 17250294
 File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725029539.156244, current mtime: 1725029570.523996
 /workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
 "GET / HTTP/1.1" 200 4876
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725029570.523996, current mtime: 1725030146.899436
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 4885
+"GET /static/css/styles.css HTTP/1.1" 304 0
+File /workspace/KC-Resume/templates/base.html previous mtime: 1725028730.7866154, current mtime: 1725031206.2071028
+/workspace/KC-Resume/templates/base.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 4924
+"GET /static/css/styles.css HTTP/1.1" 200 5828
+"GET / HTTP/1.1" 200 4924
+"GET /static/css/styles.css HTTP/1.1" 200 5907
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725030146.899436, current mtime: 1725038548.3212569
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 4915
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 4915
+"GET /static/css/styles.css HTTP/1.1" 200 5940
+"GET / HTTP/1.1" 200 4915
+"GET /static/css/styles.css HTTP/1.1" 200 5939
+"GET / HTTP/1.1" 200 4915
+"GET /static/css/styles.css HTTP/1.1" 200 5968
+"GET / HTTP/1.1" 200 4915
+"GET /static/css/styles.css HTTP/1.1" 200 5968
+"GET /static/images/backgrounds/pexels-josh-hild-1270765-16248189.jpg HTTP/1.1" 200 1892749
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 4915
+"GET /static/css/styles.css HTTP/1.1" 200 5968
+"GET / HTTP/1.1" 200 4915
+"GET /static/css/styles.css HTTP/1.1" 200 5968
+"GET /static/images/backgrounds/pexels-josh-hild-1270765-16248189.jpg HTTP/1.1" 200 1892749
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 4915
+"GET /static/css/styles.css HTTP/1.1" 200 5968
+"GET /static/images/backgrounds/pexels-josh-hild-1270765-16248189.jpg HTTP/1.1" 200 1892749
+"GET / HTTP/1.1" 200 4915
+"GET /static/css/styles.css HTTP/1.1" 200 5968
+"GET /static/images/backgrounds/pexels-josh-hild-1270765-16248189.jpg HTTP/1.1" 200 1892749
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725038548.3212569, current mtime: 1725041115.1530118
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725041115.1530118, current mtime: 1725041169.6886106
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725041169.6886106, current mtime: 1725041776.5958416
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 7575
+"GET /static/css/styles.css HTTP/1.1" 200 6000
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725041776.5958416, current mtime: 1725042255.3080566
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725042255.3080566, current mtime: 1725042258.1520343
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725042258.1520343, current mtime: 1725042371.8871408
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 7878
+"GET /static/css/styles.css HTTP/1.1" 200 6526
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7878
+"GET /static/css/styles.css HTTP/1.1" 200 6526
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725042371.8871408, current mtime: 1725043230.0763977
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 7882
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7882
+"GET /static/css/styles.css HTTP/1.1" 200 6526
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725043230.0763977, current mtime: 1725043453.9386246
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6526
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6527
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7876
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 200 6585
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6591
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6586
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6577
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6601
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6578
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6578
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6576
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+(0.131) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-08-30T19:09:49.188211+00:00'::timestamptz AND "django_session"."session_key" = '3t4blv45dpu74hso0uy317k0w0u85h1m') LIMIT 21; args=(datetime.datetime(2024, 8, 30, 19, 9, 49, 188211, tzinfo=datetime.timezone.utc), '3t4blv45dpu74hso0uy317k0w0u85h1m'); alias=default
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6576
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6527
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6592
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6598
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7876
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 200 6683
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6711
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6765
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6765
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6913
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6948
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7876
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 200 6958
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 6983
+"GET / HTTP/1.1" 200 7876
+"GET /static/css/styles.css HTTP/1.1" 200 7008
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725043453.9386246, current mtime: 1725050584.3265126
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 7892
+"GET /static/css/styles.css HTTP/1.1" 200 7008
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725050584.3265126, current mtime: 1725050700.585598
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725050700.585598, current mtime: 1725050789.5528986
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725050789.5528986, current mtime: 1725050940.6157112
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 8256
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725050940.6157112, current mtime: 1725051038.394943
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725051038.394943, current mtime: 1725051041.0669222
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 8257
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725051041.0669222, current mtime: 1725051068.0507116
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 8247
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8247
+"GET /static/css/styles.css HTTP/1.1" 200 7011
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8247
+"GET /static/css/styles.css HTTP/1.1" 200 7011
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 8247
+"GET /static/css/styles.css HTTP/1.1" 200 7011
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 8247
+"GET /static/css/styles.css HTTP/1.1" 200 7011
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 8247
+"GET /static/css/styles.css HTTP/1.1" 200 7474
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 200 235762
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 8247
+"GET /static/css/styles.css HTTP/1.1" 200 7476
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8247
+"GET /static/css/styles.css HTTP/1.1" 200 7478
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8247
+"GET /static/css/styles.css HTTP/1.1" 200 7476
+"GET /static/css/styles.css HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725051068.0507116, current mtime: 1725060898.9733415
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 8303
+"GET /static/css/styles.css HTTP/1.1" 200 7771
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 200 235762
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 200 218521
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 8303
+"GET /static/css/styles.css HTTP/1.1" 200 7813
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 200 235762
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 200 218521
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725060898.9733415, current mtime: 1725061437.421102
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 8300
+"GET /static/css/styles.css HTTP/1.1" 200 7813
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 200 235762
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 200 218521
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 8300
+"GET /static/css/styles.css HTTP/1.1" 200 7813
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 200 235762
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 200 218521
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725061437.421102, current mtime: 1725062780.970548
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 8381
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725062780.970548, current mtime: 1725062872.8018217
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 8383
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8383
+"GET /static/css/styles.css HTTP/1.1" 200 7813
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 200 218521
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 200 235762
+"GET / HTTP/1.1" 200 8383
+"GET /static/css/styles.css HTTP/1.1" 200 7850
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8383
+"GET /static/css/styles.css HTTP/1.1" 200 7851
+"GET / HTTP/1.1" 200 8383
+"GET /static/css/styles.css HTTP/1.1" 200 7851
+"GET / HTTP/1.1" 200 8383
+"GET /static/css/styles.css HTTP/1.1" 200 7852
+"GET / HTTP/1.1" 200 8383
+"GET /static/css/styles.css HTTP/1.1" 200 7853
+"GET / HTTP/1.1" 200 8383
+"GET /static/css/styles.css HTTP/1.1" 200 8184
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725062872.8018217, current mtime: 1725064290.7026587
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f6529d79da0>, True), (<function translation_file_changed at 0x7f65288bca40>, None)].
+"GET / HTTP/1.1" 200 8395
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8395
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8395
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 200 8184
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8395
+"GET /static/css/styles.css HTTP/1.1" 200 8184
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 8395
+"GET /static/css/styles.css HTTP/1.1" 200 8184
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 200 235762
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 200 218521
