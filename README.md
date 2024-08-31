@@ -6,3 +6,5 @@
   - Photo by Pixabay: https://www.pexels.com/photo/dock-under-cloudy-sky-in-front-of-mountain-206359/
   - Photo by Pixabay: https://www.pexels.com/photo/green-textile-66869/
   - Photo by NEOSiAM  2024+: https://www.pexels.com/photo/clear-water-579216/
+  - Photo by Suzy Hazelwood: https://www.pexels.com/photo/blue-and-red-galaxy-artwork-1629236/
+  - Photo by Snapwire: https://www.pexels.com/photo/cloudy-sky-37728/

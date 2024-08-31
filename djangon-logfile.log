@@ -19387,3 +19387,490 @@ File /workspace/.pip-modules/lib/python3.12/site-packages/django/template/contex
 File /workspace/.pip-modules/lib/python3.12/site-packages/django/contrib/messages/context_processors.py first seen with mtime 1724349608.325153
 File /workspace/.pip-modules/lib/python3.12/site-packages/django/contrib/messages/storage/cookie.py first seen with mtime 1724349608.325153
 "GET /static/images/favicon.ico HTTP/1.1" 200 18118
+File /workspace/KC-Resume/core/templates/core previous mtime: 1724449566.2244968, current mtime: 1725110209.5471299
+/workspace/KC-Resume/core/templates/core notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+File /workspace/KC-Resume/core/templates/core/home copy.html first seen with mtime 1725110209.5471299
+File /workspace/KC-Resume/core/templates/core previous mtime: 1725110209.5471299, current mtime: 1725110246.250568
+/workspace/KC-Resume/core/templates/core notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+File /workspace/KC-Resume/core/templates/core/projects1.html first seen with mtime 1725110209.5471299
+File /workspace/KC-Resume/core/templates/core previous mtime: 1725110246.250568, current mtime: 1725110262.678316
+/workspace/KC-Resume/core/templates/core notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+File /workspace/KC-Resume/core/templates/core previous mtime: 1725110262.678316, current mtime: 1725110273.5301495
+/workspace/KC-Resume/core/templates/core notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+File /workspace/KC-Resume/core/templates/core/projects.html previous mtime: 1724424970.279614, current mtime: 1725110209.5471299
+/workspace/KC-Resume/core/templates/core/projects.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725071711.3282323, current mtime: 1725110328.573305
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725110328.573305, current mtime: 1725110714.8753955
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725110714.8753955, current mtime: 1725111111.969309
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725111111.969309, current mtime: 1725113045.7636852
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725113045.7636852, current mtime: 1725113100.942842
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7739
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725113100.942842, current mtime: 1725113159.4019473
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7759
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET /projects/ HTTP/1.1" 200 8544
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 200 557434
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 200 3252319
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 200 352318
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 200 235762
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 200 733341
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 200 218521
+"GET /projects/ HTTP/1.1" 200 8544
+"GET / HTTP/1.1" 200 7759
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725113159.4019473, current mtime: 1725113893.3187091
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7759
+"GET / HTTP/1.1" 200 7759
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725113893.3187091, current mtime: 1725116031.1219506
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725116031.1219506, current mtime: 1725116644.6845605
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725116644.6845605, current mtime: 1725116797.7422173
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7436
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725116797.7422173, current mtime: 1725116912.016467
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7433
+"GET / HTTP/1.1" 200 7433
+"GET / HTTP/1.1" 200 7433
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+"GET / HTTP/1.1" 200 7433
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7433
+"GET / HTTP/1.1" 200 7433
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+"GET / HTTP/1.1" 200 7433
+"GET /static/css/styles.css HTTP/1.1" 200 8739
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725116912.016467, current mtime: 1725118554.079322
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7487
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725118554.079322, current mtime: 1725119267.88836
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7501
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-66869.jpg HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725119267.88836, current mtime: 1725119372.722755
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7518
+"GET /static/css/styles.css HTTP/1.1" 200 9034
+"GET /static/images/backgrounds/pexels-suzyhazelwood-1629236.jpg HTTP/1.1" 200 1927376
+"GET / HTTP/1.1" 200 7518
+"GET /static/css/styles.css HTTP/1.1" 200 9362
+"GET /static/images/backgrounds/pexels-suzyhazelwood-1629236.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7518
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7518
+"GET /static/css/styles.css HTTP/1.1" 200 9368
+"GET /static/images/backgrounds/pexels-neosiam-579216.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-suzyhazelwood-1629236.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7518
+"GET /static/css/styles.css HTTP/1.1" 200 9368
+"GET /static/images/backgrounds/pexels-suzyhazelwood-1629236.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7518
+"GET /static/css/styles.css HTTP/1.1" 200 9375
+"GET /static/images/backgrounds/pexels-suzyhazelwood-1629236.jpg HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725119372.722755, current mtime: 1725120109.5594814
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7525
+"GET /static/css/styles.css HTTP/1.1" 200 9539
+"GET /static/images/backgrounds/pexels-suzyhazelwood-1629236.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7525
+"GET /static/css/styles.css HTTP/1.1" 200 9536
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725120109.5594814, current mtime: 1725120668.9189172
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7648
+"GET /static/css/styles.css HTTP/1.1" 200 9542
+"GET /static/images/backgrounds/pexels-snapwire-37728.jpg HTTP/1.1" 200 458138
+"GET /static/images/backgrounds/pexels-suzyhazelwood-1629236.jpg HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725120668.9189172, current mtime: 1725120884.1956115
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7656
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-snapwire-37728.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-suzyhazelwood-1629236.jpg HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725120884.1956115, current mtime: 1725121001.349807
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7675
+"GET /static/css/styles.css HTTP/1.1" 200 9542
+"GET /static/images/backgrounds/pexels-snapwire-37728.jpg HTTP/1.1" 200 458138
+"GET /static/images/backgrounds/pexels-suzyhazelwood-1629236.jpg HTTP/1.1" 200 1927376
+"GET /static/images/favicon.ico HTTP/1.1" 200 18118
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725121001.349807, current mtime: 1725122145.164301
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7780
+"GET /static/css/styles.css HTTP/1.1" 200 9671
+"GET /static/images/backgrounds/pexels-snapwire-37728.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-suzyhazelwood-1629236.jpg HTTP/1.1" 304 0
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7780
+"GET /static/css/styles.css HTTP/1.1" 200 9742
+"GET / HTTP/1.1" 200 7780
+"GET /static/css/styles.css HTTP/1.1" 200 9771
+"GET /static/images/backgrounds/pexels-snapwire-37728.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7780
+"GET /static/css/styles.css HTTP/1.1" 200 9794
+"GET / HTTP/1.1" 200 7780
+"GET /static/css/styles.css HTTP/1.1" 200 9817
+"GET /static/images/backgrounds/pexels-suzyhazelwood-1629236.jpg HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725122145.164301, current mtime: 1725122502.718831
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7779
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 7779
+"GET /static/css/styles.css HTTP/1.1" 200 9819
+"GET /static/images/backgrounds/pexels-snapwire-37728.jpg HTTP/1.1" 304 0
+"GET /projects/ HTTP/1.1" 200 8544
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-458983.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-206359.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-pixabay-416920.jpg HTTP/1.1" 304 0
+"GET /contact/ HTTP/1.1" 200 4945
+"GET /static/images/backgrounds/pexels-josh-hild-1270765-16248189.jpg HTTP/1.1" 200 1892749
+"GET /static/css/styles.css HTTP/1.1" 304 0
+(0.060) SELECT "django_site"."id", "django_site"."domain", "django_site"."name" FROM "django_site" WHERE "django_site"."id" = 1 LIMIT 21; args=(1,); alias=default
+Exception while resolving variable 'href' in template 'allauth/elements/button.html'.
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'href'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'href'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'href'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [href] in {'type': 'submit', 'tags': ['prominent', 'login']}
+Exception while resolving variable 'form' in template 'allauth/elements/button.html'.
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [form] in {'type': 'submit', 'tags': ['prominent', 'login']}
+Exception while resolving variable 'id' in template 'allauth/elements/button.html'.
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [id] in {'type': 'submit', 'tags': ['prominent', 'login']}
+Exception while resolving variable 'name' in template 'allauth/elements/button.html'.
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in {'type': 'submit', 'tags': ['prominent', 'login']}
+Exception while resolving variable 'value' in template 'allauth/elements/button.html'.
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'value'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'value'. Did you mean: 'values'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'value'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [value] in {'type': 'submit', 'tags': ['prominent', 'login']}
+Exception while resolving variable 'id' in template 'allauth/elements/button.html'.
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [id] in {'type': 'submit', 'tags': ['prominent', 'login']}
+Exception while resolving variable 'href' in template 'allauth/elements/button.html'.
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+KeyError: 'href'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'href'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'href'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [href] in {'type': 'submit', 'tags': ['prominent', 'login']}
+(0.041) SELECT "socialaccount_socialapp"."id", "socialaccount_socialapp"."provider", "socialaccount_socialapp"."provider_id", "socialaccount_socialapp"."name", "socialaccount_socialapp"."client_id", "socialaccount_socialapp"."secret", "socialaccount_socialapp"."key", "socialaccount_socialapp"."settings" FROM "socialaccount_socialapp" INNER JOIN "socialaccount_socialapp_sites" ON ("socialaccount_socialapp"."id" = "socialaccount_socialapp_sites"."socialapp_id") WHERE "socialaccount_socialapp_sites"."site_id" = 1; args=(1,); alias=default
+"GET /accounts/login/ HTTP/1.1" 200 2271
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/urls/resolvers.py", line 725, in resolve
+    raise Resolver404({"tried": tried, "path": new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'core.urls' from '/workspace/KC-Resume/core/urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'core.urls' from '/workspace/KC-Resume/core/urls.py'> (None:None) ''>, <URLPattern 'projects/' [name='projects']>], [<URLResolver <module 'core.urls' from '/workspace/KC-Resume/core/urls.py'> (None:None) ''>, <URLPattern 'contact/' [name='contact']>], [<URLResolver <module 'core.urls' from '/workspace/KC-Resume/core/urls.py'> (None:None) ''>, <URLResolver <module 'allauth.urls' from '/workspace/.pip-modules/lib/python3.12/site-packages/allauth/urls.py'> (None:None) 'accounts/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/urls/resolvers.py", line 725, in resolve
+    raise Resolver404({"tried": tried, "path": new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'core.urls' from '/workspace/KC-Resume/core/urls.py'> (None:None) ''>, <URLPattern '' [name='home']>], [<URLResolver <module 'core.urls' from '/workspace/KC-Resume/core/urls.py'> (None:None) ''>, <URLPattern 'projects/' [name='projects']>], [<URLResolver <module 'core.urls' from '/workspace/KC-Resume/core/urls.py'> (None:None) ''>, <URLPattern 'contact/' [name='contact']>], [<URLResolver <module 'core.urls' from '/workspace/KC-Resume/core/urls.py'> (None:None) ''>, <URLResolver <module 'allauth.urls' from '/workspace/.pip-modules/lib/python3.12/site-packages/allauth/urls.py'> (None:None) 'accounts/'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'allauth.urls' from '/workspace/.pip-modules/lib/python3.12/site-packages/allauth/urls.py'> (None:None) 'accounts/'>
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2773
+"GET /static/css/styles.css HTTP/1.1" 304 0
+File /workspace/KC-Resume/core/templates/core/home.html previous mtime: 1725122502.718831, current mtime: 1725123272.103035
+/workspace/KC-Resume/core/templates/core/home.html notified as changed. Signal results: [(<function template_changed at 0x7f1b263e1da0>, True), (<function translation_file_changed at 0x7f1b24f38a40>, None)].
+"GET / HTTP/1.1" 200 7784
+"GET /static/css/styles.css HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-snapwire-37728.jpg HTTP/1.1" 304 0
+"GET /static/images/backgrounds/pexels-suzyhazelwood-1629236.jpg HTTP/1.1" 304 0

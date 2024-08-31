@@ -1,89 +1,82 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-<!-- <div class="row">
-    <div class="container-main-header">
-        <div class="col-sm-12 col-md-8">
-            <h1 class="text-center">Portfolio-Profile</h1>
-        </div>
+<header class="container-main-header-resume  justify-content-center align-items-center ">
+    <div class="col-sm-12 col-md-8 p-4">
+        <h1 class="text-center resume-title">Kenneth Cox</h1>
+        <p class="text-center resume-title-text">Junior Full Stack Software Developer</p>
+        <img src="{% static 'images/backgrounds/pexels-snapwire-37728.jpg' %}" class="header-image"
+                    alt="Resume title background image">
     </div>
-    <div class="container-main">
-        <div class="col-sm-12 col-md-8">
-            <img src="{% static 'images/backgrounds/pexels-josh-hild-1270765-16248189.jpg' %}" class="img-fluid"
-                alt="Home Image">
-        </div>
-    </div>
-</div> -->
-<div class="container justify-content-center align-items-center ">
-    <article class="col-sm-12 text-center">
-        <header class="article-header">
-            <div class="header-content">
-                <h1 class="article-title text-shadow">About Me</h1>
-                <h3 class="article-subtitle">Junior Full Stack Software Developer</h3>
-                <h2 class="article-h2">More than a CV</h2>
-                <p class="article-subtitle">Welcome to my playground. Here you can find information about who I am, my
-                    projects, and how to contact me.</p>
+</header>
+<div class="container container-body justify-content-center align-items-center ">
+    <div class="row">
+        <!-- Left-side-main -->
+        <div class="left-side-main col-sm-12 col-md-4">
+            <div class="profile-pic-container">
+                <img src="https://avatars.githubusercontent.com/u/159484600?v=4" class="img-fluid profile-pic"
+                    alt="Profile Picture of Kenneth Cox">
             </div>
-            <img src="{% static 'images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg' %}" class="header-image"
-                alt="Home Image">
-        </header>
-        <section class="scroll-reveal">
-            <h2><span>
-                    Lorem ipsum dolor sit amet consectetur </span>
-            </h2>
-            <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem excepturi laboriosam
-                    expedita eius
-                    sapiente
-                    eaque sed eveniet libero a corrupti vitae, alias error. Accusamus nostrum doloremque necessitatibus,
-                    corrupti
-                    unde
-                    aliquid!</span></p>
-
-            <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem excepturi laboriosam expedita
-                eius
-                sapiente
-                eaque sed eveniet libero a corrupti vitae, alias error. Accusamus nostrum doloremque necessitatibus,
-                corrupti
-                unde
-                aliquid!</span></p>
-        </section>
-        <img src="{% static 'images/backgrounds/pexels-pixabay-458983.jpg' %}" class="img-fluid" alt="Home Image">
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem excepturi laboriosam expedita eius
-            sapiente
-            eaque sed eveniet libero a corrupti vitae, alias error. Accusamus nostrum doloremque necessitatibus,
-            corrupti
-            unde
-            aliquid!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem excepturi laboriosam expedita eius
-            sapiente
-            eaque sed eveniet libero a corrupti vitae, alias error. Accusamus nostrum doloremque necessitatibus,
-            corrupti
-            unde
-            aliquid!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem excepturi laboriosam expedita eius
-            sapiente
-            eaque sed eveniet libero a corrupti vitae, alias error. Accusamus nostrum doloremque necessitatibus,
-            corrupti
-            unde
-            aliquid!</p>
-        <img src="{% static 'images/backgrounds/pexels-pixabay-206359.jpg' %}" class="img-fluid" alt="Home Image">
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem excepturi laboriosam expedita eius
-            sapiente
-            eaque sed eveniet libero a corrupti vitae, alias error. Accusamus nostrum doloremque necessitatibus,
-            corrupti
-            unde
-            aliquid!</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem excepturi laboriosam expedita eius
-            sapiente
-            eaque sed eveniet libero a corrupti vitae, alias error. Accusamus nostrum doloremque necessitatibus,
-            corrupti
-            unde
-            aliquid!</p>
-
-        <img src="{% static 'images/backgrounds/pexels-pixabay-416920.jpg' %}" class="img-fluid" alt="Home Image">
-
-    </article>
+            <div class="container-info contact-info">
+                <h2 class="text-center">Contact</h2>
+                <p>Phone:</p>
+                <p>Email:</p>
+                <p>location:</p>
+            </div>
+            <div class="container-info education-info">
+                <h2 class="text-center">Education</h2>
+                <p>Diploma: Full Stack Software Development with Code Institute.</p>
+                <p>Open University: 1st Year of (BSc) Physics & Mathematics</p>
+            </div>
+            <div class="container-info skills-info">
+                <h2 class="text-center">Expertise</h2>
+                <p>Python</p>
+                <p>Django</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>React</p>
+            </div>
+            <div class="container-info language-info">
+                <h2 class="text-center">Language</h2>
+                <p class="text-left">English</p>
+            </div>
+        </div>
+        <!-- right-side-main -->
+        <div class="right-side-main col-sm-12 col-md-8">
+            <div class="container-info aboutme-info">
+                <h2 class="text-center">About Me</h2>
+                <p class="text-center">Welcome to my playground. Here you can find information about who I am, my
+                    projects,
+                    and how to contact me.</p>
+            </div>
+            <div class="container-info projects-info">
+                <h2 class="text-center">Projects</h2>
+                <p>Project 1</p>
+                <p>Project 2</p>
+                <p>Project 3</p>
+                <p>Project 4</p>
+                <p>Project 5</p>
+            </div>
+            <div class="container-info reference-info">
+                <h2 class="text-center">References</h2>
+                <div class="row">
+                    <div class="reference-block col-6">
+                        <h3>Name Surname</h3>
+                        <p>Company</p>
+                        <p>Phone</p>
+                        <p>Email</p>
+                    </div>
+                    <div class="reference-block col-6">
+                        <h3>Name Surname</h3>
+                        <p>Company</p>
+                        <p>Phone</p>
+                        <p>Email</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
 {% endblock %}
