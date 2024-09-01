@@ -27,7 +27,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get("DEBUG", "") == "1"
+DEBUG = False #os.environ.get("DEBUG", "") == "1"
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost',
                  '.ws.codeinstitute-ide.net', '.herokuapp.com','purerarez.co.uk']
@@ -203,7 +203,7 @@ EMAIL_PORT = 587  # 587 or 465 for SSL
 EMAIL_USE_TLS = True  # or EMAIL_USE_SSL = True for SSL
 EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")  # your email
 EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")  # your email password
-DEFAULT_FROM_EMAIL = 'damitwhy@gmail.com'
+DEFAULT_FROM_EMAIL = 'ken@purerarez.co.uk'  # your email
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
