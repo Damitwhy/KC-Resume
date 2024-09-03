@@ -1,4 +1,5 @@
 import os
+import sys
 
 from pathlib import Path
 
@@ -8,7 +9,21 @@ import dj_database_url
 if os.path.isfile('env.py'):
     import env
 
-import sys
+
+from decouple import config
+
+SECRET_KEY = config('SECRET_KEY')
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': config('DB_HOST', default='localhost'),
+        'PORT': config('DB_PORT', default='5432'),
+    }
+}
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -24,7 +39,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'uogfok3mgii00gjrBjnYFD1JO' #os.environ.get('SECRET_KEY') #
+ #os.environ.get('SECRET_KEY') #
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False #os.environ.get("DEBUG", "") == "1"
@@ -141,16 +156,16 @@ SUMMERNOTE_CONFIG = {
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 #DATABASES = {'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))}
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'purerarez',
-        'USER': 'purerarez',
-        'PASSWORD': 'purerarez',
-        'HOST': 'localhost',  # Set to 'localhost' if PostgreSQL is on the same server
-        'PORT': '5432',
-    }
-}
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'purerarez',
+#        'USER': 'purerarez',
+#        'PASSWORD': 'purerarez',
+#        'HOST': 'localhost',  # Set to 'localhost' if PostgreSQL is on the same server
+#        'PORT': '5432',
+#    }
+#}
 
 
 if 'test' in sys.argv:
