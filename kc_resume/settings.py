@@ -2,7 +2,7 @@ import os
 import sys
 
 from pathlib import Path
-
+from dotenv import load_dotenv
 # Imports env.py file
 import dj_database_url
 # Import environment variables from env.py
