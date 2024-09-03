@@ -1,13 +1,13 @@
+import os
+
 from pathlib import Path
 
 # Imports env.py file
-
-import os
 import dj_database_url
+# Import environment variables from env.py
 if os.path.isfile('env.py'):
     import env
 
-# Import Sytem module for testing
 import sys
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -24,13 +24,12 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = 'uogfok3mgii00gjrBjnYFD1JO' #os.environ.get('SECRET_KEY') #
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False #os.environ.get("DEBUG", "") == "1"
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost',
-                 '.ws.codeinstitute-ide.net', '.herokuapp.com','purerarez.co.uk']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.ws.codeinstitute-ide.net', '.herokuapp.com','purerarez.co.uk', 'www.purerarez.co.uk' ]
 
 # Specify the custom user model
 AUTH_USER_MODEL = 'core.User'
@@ -73,7 +72,7 @@ SITE_ID = 1
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
-
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -141,7 +140,18 @@ SUMMERNOTE_CONFIG = {
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))}
+#DATABASES = {'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))}
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'purerarez',
+        'USER': 'purerarez',
+        'PASSWORD': 'purerarez',
+        'HOST': 'localhost',  # Set to 'localhost' if PostgreSQL is on the same server
+        'PORT': '5432',
+    }
+}
+
 
 if 'test' in sys.argv:
     DATABASES['default']['ENGINE'] = 'django.db.backends.sqlite3'
@@ -151,6 +161,9 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.herokuapp.com",
     "http://localhost:8000",
     "https://purerarez.co.uk",
+    "http://purerarez.co.uk",
+    "https://www.purerarez.co.uk",
+    "http://www.purerarez.co.uk",
 ]
 
 
@@ -203,10 +216,8 @@ EMAIL_PORT = 587  # 587 or 465 for SSL
 EMAIL_USE_TLS = True  # or EMAIL_USE_SSL = True for SSL
 EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")  # your email
 EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")  # your email password
-DEFAULT_FROM_EMAIL = 'ken@purerarez.co.uk'  # your email
+DEFAULT_FROM_EMAIL = 'damitwhy01@gmail.com'  # your email
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
@@ -217,7 +228,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': 'djangon-logfile.log',
+            'filename': os.path.join(BASE_DIR, 'logs/debug.log'),  # Change log file location
         },
     },
     'loggers': {
@@ -227,4 +238,4 @@ LOGGING = {
             'propagate': True,
         },
     },
-}
+}                                         

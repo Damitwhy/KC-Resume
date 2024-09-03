@@ -11,8 +11,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #ffffff;
-  background-color: #000000;
+  color: #000000;
+  background-color: #ffffff;
   
   /* background-image: url("../images/backgrounds/pexels-ritesh-singh-64833387-14570124.25a7a6ba6ed5.jpg"); */
   /* background-repeat: no-repeat;
@@ -30,6 +30,31 @@ body {
   color: transparent;
   font-family: 'Roboto', sans-serif;
  
+}
+.resume-title {
+  font-size: 6vw;
+  background-image:url("../images/backgrounds/pexels-suzyhazelwood-1629236.ef9ef6bbf3e6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  
+}
+
+.resume-title-text {
+  font-size: 2vw;
+  background-image:url("../images/backgrounds/pexels-suzyhazelwood-1629236.ef9ef6bbf3e6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 /* styles.css */
 .text-shadow {
@@ -59,6 +84,7 @@ body {
   font-weight: 700;
   font-style: italic;
 }
+
 
 /* for animated images Kevin Powell tutorial */
 /* .scroll-watcher {
@@ -105,13 +131,14 @@ body {
 
 
 .article-header {
-  display: grid;
+  display: flex;
   place-items: center;
   position: relative;
+  min-width: 90vw;
   height: 100svh;
   overflow-x: clip;
-  padding-block: 7rem;
-  margin-block-end: 3rem;
+  padding-block: 0;
+  margin-block-end: 0;
 
 }
 .header-content {
@@ -176,6 +203,17 @@ body {
   padding: 5px;
 }
 
+.container-main-header-resume {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: clip;
+  min-height: 30vh;
+  padding: 5px;
+}
+
 .container-main {
   display: flex;
   flex-direction: row;
@@ -186,10 +224,33 @@ body {
 
 }
 
+.contact {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/backgrounds/pexels-d-ng-nhan-324384-1529881.b2082d487a63.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.contact h2 {
+  color: #ffffff;
+}
+
 .container-main img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+.profile-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: #000000 solid 1px;
+  margin-bottom: 10px;
 }
 
 /* pacifico font */
@@ -197,6 +258,15 @@ body {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.container-info {
+  border: #000000 solid 1px;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgba(177,200,208,0.5);
+  margin-bottom: 10px;
+
 }
 
 /* Roboto font */

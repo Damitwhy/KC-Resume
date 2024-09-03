@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000;
+  background-color: #ffffff;
+  
+  /* background-image: url("../images/backgrounds/pexels-ritesh-singh-64833387-14570124.25a7a6ba6ed5.jpg"); */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+
+.article-title {
+  font-size: 10vw;
+  background-image:url("../images/backgrounds/pexels-pixabay-66869.98320caecf90.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+.resume-title {
+  font-size: 6vw;
+  background-image:url("../images/backgrounds/pexels-suzyhazelwood-1629236.ef9ef6bbf3e6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  
+}
+
+.resume-title-text {
+  font-size: 2vw;
+  background-image:url("../images/backgrounds/pexels-suzyhazelwood-1629236.ef9ef6bbf3e6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+/* styles.css */
+.text-shadow {
+  position: relative;
+  z-index: 1; /* Ensure the text is above the shadow */
+}
+
+.text-shadow::before {
+  content: attr(data-shadow);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Send the shadow behind the text */
+  color: #000000;
+  text-shadow: -15px 15px 15px #000000;
+  opacity: 0.5; /* Adjust opacity if needed */
+}
+.article-h2 {
+  font-size: 6vw;
+  background-image:url("../images/backgrounds/pexels-neosiam-579216.dbc7b7b5a8c8.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/* for animated images Kevin Powell tutorial */
+/* .scroll-watcher {
+  height: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: lime;  
+  width: 100%;
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll-watcher {
+  to {scale: 1 1;}
+} */
+.scroll-reveal span {
+  color: hsl(0 0% 100% / 0.2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 0% 100%;
+  background-image: linear-gradient(90deg, white, white);
+  animation: scroll-reveal linear forwards;
+  animation-timeline: view();
+}
+
+.scroll-reveal h2 span {
+  animation-range-start: contain 20vh;
+  animation-range-end: contain 30vh;
+}
+
+.scroll-reveal p span {
+  animation-range-start: contain 20vh;
+  animation-range-end: contain 30vh;
+}
+
+@keyframes scroll-reveal {
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+
+.article-header {
+  display: flex;
+  place-items: center;
+  position: relative;
+  min-width: 90vw;
+  height: 100svh;
+  overflow-x: clip;
+  padding-block: 0;
+  margin-block-end: 0;
+
+}
+.header-content {
+  animation: fade-out linear;
+  animation-timeline: view();
+  animation-range: exit -200px;
+}
+
+.header-image {
+  grid-column: 1 / -1 !important;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  object-fit: cover;
+  z-index: -1;
+  /* transform-origin: bottom; */
+  animation: header-image-animation linear forwards;
+  animation-timeline: view();
+  animation-range: exit;
+}
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }   
+}
+@keyframes header-image-animation {
+  85%, 100% {
+    opacity: 0; scale: 3;
+  }
+  25% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+  article>img {
+    scale: 0.8;
+    opacity: 0;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
+  }
+
+  @keyframes fade-in {
+    to {
+      scale: 1;
+      opacity: 1;
+    }
+  }
+}
+
+/* site content */
+.container-main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 5px;
+}
+
+.container-main-header-resume {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: clip;
+  min-height: 30vh;
+  padding: 5px;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  padding: 5px;
+
+}
+
+.contact {
+  background-image: linear-gradient (rgba(0,0,0,0.6), rgba(0,0,0,0.6)), uri("../images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 90vh;
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+
+.container-main img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.profile-pic {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: #000000 solid 1px;
+  margin-bottom: 10px;
+}
+
+/* pacifico font */
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-info {
+  border: #000000 solid 1px;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgba(177,200,208,0.5);
+  margin-bottom: 10px;
+
+}
+
+/* Roboto font */
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.backbtn {
+  display: block;
+  margin-bottom: 15px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.backbtn:hover {
+  text-decoration: underline;
+}
+
+.button {
+  border-radius: 25%;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* Full height to center the content */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.form-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.image-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* Ensures the content is centered vertically */
+  padding-top: 50px;
+  /* Adds space at the top */
+  padding-bottom: 50px;
+  /* Adds space at the bottom */
+}
+
+.image-box {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.messages {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  opacity: 1;
+  transition: opacity 0.6s ease-in;
+  animation: fadeOut 6s forwards;
+}
+
+/* Keyframes to fade out the alert */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  /* Start fully visible */
+  50% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 0.2;
+  }
+
+  /* Gradually fade out */
+  100% {
+    display: none;
+    opacity: 0;
+  }
+
+  /* Hide it after fade */
+}
+
+.messages li {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.messages .debug {
+  background-color: #e7e7e7;
+  color: #333;
+}
+
+.messages .info {
+  background-color: #d9edf7;
+  color: #31708f;
+}
+
+.messages .success {
+  background-color: #dff0d8;
+  color: #3c763d;
+}
+
+.messages .warning {
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+}
+
+.messages .error {
+  background-color: #f2dede;
+  color: #a94442;
+}
+
+@media (max-width: 768px) {
+  .topic {
+
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .topic {
+
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .topic {
+    margin 0;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .topic {
+    margin 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .topic {
+    margin 0;
+  }
+}
+
+/* Force the styles to apply using !important */
+.custom-login-button {
+  width: 100% !important;
+  padding: 10px !important;
+  border-radius: 25px !important;
+  border: 1px solid gray !important;
+  background-color: transparent !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  font-size: 16px !important;
+  text-align: center !important;
+}
+
+.custom-login-button:hover {
+  color: white !important;
+  background-color: #292929 !important;
+}

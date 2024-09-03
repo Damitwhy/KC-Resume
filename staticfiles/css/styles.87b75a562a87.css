@@ -32,15 +32,29 @@ body {
  
 }
 .resume-title {
-  font-size: 10vw;
+  font-size: 6vw;
   background-image:url("../images/backgrounds/pexels-suzyhazelwood-1629236.ef9ef6bbf3e6.jpg");
   background-size: cover;
   background-position: center;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-family: 'Roboto', sans-serif;
- 
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  
+}
+
+.resume-title-text {
+  font-size: 2vw;
+  background-image:url("../images/backgrounds/pexels-suzyhazelwood-1629236.ef9ef6bbf3e6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 /* styles.css */
 .text-shadow {
@@ -71,19 +85,6 @@ body {
   font-style: italic;
 }
 
-
-.resume-title-text {
-  font-size: 3vw;
-  background-image:url("../images/backgrounds/pexels-suzyhazelwood-1629236.ef9ef6bbf3e6.jpg");
-  background-size: cover;
-  background-position: center;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
 
 /* for animated images Kevin Powell tutorial */
 /* .scroll-watcher {
@@ -130,13 +131,14 @@ body {
 
 
 .article-header {
-  display: grid;
+  display: flex;
   place-items: center;
   position: relative;
+  min-width: 90vw;
   height: 100svh;
   overflow-x: clip;
-  padding-block: 7rem;
-  margin-block-end: 3rem;
+  padding-block: 0;
+  margin-block-end: 0;
 
 }
 .header-content {
@@ -207,6 +209,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-x: clip;
   min-height: 30vh;
   padding: 5px;
 }
