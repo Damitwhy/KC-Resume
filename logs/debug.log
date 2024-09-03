@@ -23056,3 +23056,51 @@ File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/contrib/sessi
 File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/contrib/sessions/middleware.py first seen with mtime 1725397432.8862998
 File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/contrib/messages/middleware.py first seen with mtime 1725397432.8343
 File /workspace/KC-Resume/venv/lib/python3.12/site-packages/allauth/account/migrations/0007_emailaddress_idx_email.py first seen with mtime 1725397434.6102903
+"GET /contact/ HTTP/1.1" 200 5340
+File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/contrib/messages/storage/cookie.py first seen with mtime 1725397432.8343
+File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/contrib/auth/context_processors.py first seen with mtime 1725397432.674301
+File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/contrib/sessions/serializers.py first seen with mtime 1725397432.8862998
+File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/contrib/messages/context_processors.py first seen with mtime 1725397432.8343
+File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/contrib/messages/storage/session.py first seen with mtime 1725397432.8383002
+File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/template/context_processors.py first seen with mtime 1725397432.9902992
+"POST /contact/ HTTP/1.1" 302 0
+"GET /contact/ HTTP/1.1" 200 5499
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4252
+"GET /static/admin/css/base.9f65b5cd54b3.css HTTP/1.1" 200 4890
+"GET /static/admin/js/theme.ab270f56bb9c.js HTTP/1.1" 200 605
+"GET /static/admin/css/responsive.eafb93ff084c.css HTTP/1.1" 200 3370
+"GET /static/admin/css/login.586129c60a93.css HTTP/1.1" 200 417
+"GET /static/admin/css/dark_mode.e18e9a052429.css HTTP/1.1" 200 772
+"GET /static/admin/css/nav_sidebar.dd925738f4cc.css HTTP/1.1" 200 811
+"GET /static/admin/js/nav_sidebar.3b9190d420b1.js HTTP/1.1" 200 845
+File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/conf/locale/en/__init__.py first seen with mtime 1725397432.4863021
+File /workspace/KC-Resume/venv/lib/python3.12/site-packages/allauth/account/auth_backends.py first seen with mtime 1725397434.6062903
+File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/conf/locale/en/formats.py first seen with mtime 1725397432.4863021
+File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/contrib/admin/forms.py first seen with mtime 1725397432.5423017
+File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/contrib/auth/views.py first seen with mtime 1725397432.674301
+File /workspace/KC-Resume/venv/lib/python3.12/site-packages/django/contrib/auth/decorators.py first seen with mtime 1725397432.674301
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 4318
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4413
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4411
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 14973
+"GET /static/admin/css/dashboard.e90f2068217b.css HTTP/1.1" 200 267
+"GET /static/admin/img/icon-addlink.d519b3bab011.svg HTTP/1.1" 200 206
+"GET /static/admin/img/icon-changelink.18d2fd706348.svg HTTP/1.1" 200 269
+"GET /static/admin/img/icon-deletelink.564ef9dc3854.svg HTTP/1.1" 200 221
+"GET /admin/core/contactmessage/ HTTP/1.1" 200 14130
+"GET /static/admin/js/admin/RelatedObjectLookups.ef211845e458.js HTTP/1.1" 200 2325
+"GET /static/admin/css/changelists.47cb433b29d4.css HTTP/1.1" 200 1619
+"GET /static/admin/js/core.7e257fdf56dc.js HTTP/1.1" 200 1550
+"GET /static/admin/js/jquery.init.b7781a0897fc.js HTTP/1.1" 200 236
+"GET /static/admin/js/vendor/jquery/jquery.min.2c872dbe60f4.js HTTP/1.1" 200 30336
+"GET /static/admin/js/actions.867b023a736d.js HTTP/1.1" 200 1937
+"GET /static/admin/js/urlify.ae970a820212.js HTTP/1.1" 200 2578
+"GET /static/admin/js/prepopulate.bd2361dfd64d.js HTTP/1.1" 200 536
+"GET /static/admin/js/vendor/xregexp/xregexp.min.f1ae4617847c.js HTTP/1.1" 200 46360
+"GET /static/admin/js/filters.0e360b7a9f80.js HTTP/1.1" 200 502
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/tooltag-add.e59d620a9742.svg HTTP/1.1" 200 203

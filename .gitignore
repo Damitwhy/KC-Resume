@@ -9,4 +9,5 @@ node_modules/
 cloudinary_python.txt
 db.json
 .env
+debug.log
 wsgi.py
