@@ -19,14 +19,15 @@
             </div>
             <div class="container-info contact-info">
                 <h2 class="text-center">Contact</h2>
-                <p>Phone: {{ contact_info.phone }}</p>
-                <p>Email: {{ contact_info.email }}</p>
+                <p>Phone: <a href="tel:{{ contact_info.phone }}">{{ contact_info.phone }}</a></p>
+                <p>Email: <a href="mailto:{{ contact_info.email }}">{{ contact_info.email }}</a></p>
                 <p>Location: {{ contact_info.location }}</p>
             </div>
             <div class="container-info education-info">
                 <h2 class="text-center">Education</h2>
                 {% for edu in education_info %}
-                <p>{{ edu.degree }}: {{ edu.institution }}</p>
+                <p>{{ edu.degree }}</p>
+                <p>{{ edu.institution }}</p>
                 {% endfor %}
             </div>
             <div class="container-info skills-info">
