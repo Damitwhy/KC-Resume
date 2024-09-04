@@ -85,6 +85,13 @@ body {
   font-style: italic;
 }
 
+.inner-block {
+  border: #000000;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgba(177,200,208,0.5);
+}
 
 /* for animated images Kevin Powell tutorial */
 /* .scroll-watcher {
