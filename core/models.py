@@ -59,7 +59,7 @@ class Recommendation(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='recommendations')
     name = models.CharField(max_length=100)
     connection_type = models.CharField(max_length=100)
-    education = models.CharField(max_length=100)
+    education = models.CharField(max_length=200)
     date = models.DateField()
     relationship = models.CharField(max_length=100)
     text = models.TextField()
