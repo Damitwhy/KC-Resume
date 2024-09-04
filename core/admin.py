@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django_summernote.admin import SummernoteModelAdmin
 from .models import User, ContactMessage, Skill, ContactInfo, EducationInfo, ExpertiseInfo, LanguageInfo, AboutMeInfo, Reference, Recommendation
 
 @admin.register(User)
@@ -38,9 +39,10 @@ class LanguageInfoAdmin(admin.ModelAdmin):
     search_fields = ('language',)
 
 @admin.register(AboutMeInfo)
-class AboutMeInfoAdmin(admin.ModelAdmin):
+class AboutMeInfoAdmin(SummernoteModelAdmin):
     list_display = ('user', 'description')
     search_fields = ('description',)
+    summernote_fields = ('description',)
 
 @admin.register(Reference)
 class ReferenceAdmin(admin.ModelAdmin):
