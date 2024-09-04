@@ -54,3 +54,16 @@ class Reference(models.Model):
     name = models.CharField(max_length=100)
     contact = models.CharField(max_length=100)
     relationship = models.CharField(max_length=100)
+
+class Recommendation(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='recommendations')
+    name = models.CharField(max_length=100)
+    connection_type = models.CharField(max_length=100)
+    education = models.CharField(max_length=100)
+    date = models.DateField()
+    relationship = models.CharField(max_length=100)
+    text = models.TextField()
+    contact_link = models.URLField()
+
+    def __str__(self):
+        return f"Recommendation by {self.name}"
