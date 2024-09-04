@@ -89,54 +89,21 @@
             <div class="container-info recommendations-info">
                 <h2 class="text-center">Recommendations</h2>
                 <div class="row">
+                    {% for recommendation in recommendations %}
                     <div class="recommendation-block col-sm-12 col-md-6">
                         <div class="inner-block">
-                            <p>· 1stFirst degree connection<br>
-                                MA Graduate from The University of KentMA Graduate from The University of Kent</p>
-                            <p>August 29, 2024, Henry worked with Ken on the same team</p>
-                            <p>I’ve had the pleasure of working with Ken while we did the Code Institute Full-Stack
-                                Software Development bootcamp. Highly motivated from the start, I saw him excel consistently as
-                                we progressed through HTML, CSS, JavaScript, Python, Django and SQL/PostgresSQL, Over the
-                                course of the bootcamp, I got to work closely with him on two Hackathon projects. With an
-                                innovative approach focused on the end user’s experience, Ken is a highly conscientious programmer,
-                                methodical problem-solver, and dedicated collaborator. His positive and committed
-                                attitude was an asset to the team, and ensured we always excelled in our projects. Naturally
-                                supportive and demonstrating exceptionally strong technical proficiency in both front-end and back-end
-                                development, Ken participates fully in project production from ideation right through to
-                                final testing. As a highly motivated team-player and dedicated developer, he will be
-                                invaluable to any team.
+                            <p>· {{ recommendation.connection_type }}<br>
+                                {{ recommendation.education }}</p>
+                            <p>{{ recommendation.date }}, {{ recommendation.relationship }}</p>
+                            <p>
+                                <span class="truncated-text">{{ recommendation.text }}</span>
+                                <span class="full-text" style="display: none;">{{ recommendation.text }}</span>
                             </p>
-                            <p>by <a target="_blank"
-                                    href="https://www.linkedin.com/in/henry-bennett-1b5100198?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B9yy4kNRwQse%2B8NtYFnE26Q%3D%3D">Henry
-                                    Bennett</a></p>
+                            <button class="toggle-btn" onclick="toggleText(this)">Read more</button>
+                            <p>by <a target="_blank" href="{{ recommendation.contact_link }}">{{ recommendation.name }}</a></p>
                         </div>
                     </div>
-                    <div class="recommendation-block col-sm-12 col-md-6">
-                        <div class="inner-block">
-                            <p>· 1stFirst degree connection
-                                Junior Software Developer and Experienced AdministratorJunior Software Developer and
-                                Experienced Administrator</p>
-                            <p> August 28, 2024, Hannah worked with Ken on the same team </p>
-                            <p> I had the pleasure of working with Ken for our diversity Hackathon during our 16 week
-                                bootcamp course with code institute.
-
-                                As our team lead Ken showed dedication to our project and ensured we were working
-                                collaboratively to navigate these new languages we'd just learned (html and CSS).
-
-                                Ken focused on being a team player as well as a leader and I felt like the workload was
-                                distributed evenly between the group and any conflicts resolved quickly with
-                                understanding
-                                of all point of views.
-
-                                I highly recommend Ken for any job opportunities where they are looking for a leader, a
-                                team
-                                player, a creative mind and an all round dedicated learner.</p>
-                            <p>by <a target="_blank"
-                                    href="https://www.linkedin.com/in/hannah-eves-4364692b6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B9yy4kNRwQse%2B8NtYFnE26Q%3D%3D">Hannah
-                                    EvesHannah Eves</a></p>
-
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
