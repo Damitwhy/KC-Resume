@@ -52,3 +52,9 @@ class RecommendationAdmin(admin.ModelAdmin):
     list_display = ('user', 'name', 'connection_type', 'education', 'date', 'relationship')
     search_fields = ('name', 'connection_type', 'education', 'relationship')
     list_filter = ('date',)
+    # Optional: Customize the form layout
+    fieldsets = (
+        (None, {
+            'fields': ('user', 'name', 'connection_type', 'education', 'date', 'relationship', 'text', 'contact_link')
+        }),
+    )

@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from .models import ContactInfo, EducationInfo, ExpertiseInfo, LanguageInfo, AboutMeInfo, Reference, User
+from .models import ContactInfo, EducationInfo, ExpertiseInfo, LanguageInfo, AboutMeInfo, Reference, User, Recommendation
 from .forms import ContactMessageForm
 from django.contrib import messages
 
@@ -11,6 +11,7 @@ def home(request):
     language_info = LanguageInfo.objects.filter(user=user)
     about_me_info = AboutMeInfo.objects.filter(user=user).first()
     references = Reference.objects.filter(user=user)
+    recommendations = Recommendation.objects.all()
 
     context = {
         'contact_info': contact_info,
@@ -19,6 +20,7 @@ def home(request):
         'language_info': language_info,
         'about_me_info': about_me_info,
         'references': references,
+        'recommendations': recommendations,
     }
     return render(request, 'core/home.html', context)
 
