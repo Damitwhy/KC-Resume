@@ -93,14 +93,14 @@
                     {% for recommendation in recommendations %}
                     <div class="recommendation-block col-sm-12 col-md-6">
                         <div class="inner-block">
-                            <p>· {{ recommendation.connection_type }}<br>
+                            <p>{{ recommendation.connection_type }}<br>
                                 {{ recommendation.education }}</p>
                             <p>{{ recommendation.date }}, {{ recommendation.relationship }}</p>
                             <p>
                                 <span class="truncated-text">{{ recommendation.text }}</span>
                                 <span class="full-text" style="display: none;">{{ recommendation.text }}</span>
                             </p>
-                            <button class="toggle-btn" onclick="toggleText(this)">Read more</button>
+                            <button class="toggle-btn mb-2" onclick="toggleText(this)">Read more</button>
                             <p>by <a target="_blank" href="{{ recommendation.contact_link }}">{{ recommendation.name }}</a></p>
                         </div>
                     </div>
