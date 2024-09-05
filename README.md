@@ -1,5 +1,12 @@
+## Project
+- Simple Resume with Django, HTML, CSS, Java Script, Python, PostgreSQL and Bootstrap5.
+  - A Resume web application to display information populated from a PostgreSQL database.
+  - User information uploaded via admin panel.
+  - Model.py can be restructured to include other Bio information.
+  ![Am I responsive Image](/readme/amiresponsive.png)
+
 ## Credits
-- Images and Art works
+- Images and Art works from Pexels
   - Photo by RITESH SINGH: https://www.pexels.com/photo/close-up-photo-of-rain-water-14570124/
   - Photo by Josh Hild: https://www.pexels.com/photo/moon-behind-raindrops-on-glass-16248189/
   - Photo by Dương Nhân: https://www.pexels.com/photo/grayscale-photography-of-trees-1529881/
