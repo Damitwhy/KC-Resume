@@ -3,16 +3,18 @@ import sys
 
 from pathlib import Path
 from dotenv import load_dotenv
+
+from decouple import config
+
 # Imports env.py file
 import dj_database_url
 # Import environment variables from env.py
 if os.path.isfile('env.py'):
     import env
 
-
-from decouple import config
-
 SECRET_KEY = config('SECRET_KEY')
+
+CLOUDINARY_URL = config('CLOUDINARY_URL')
 
 DATABASES = {
     'default': {
