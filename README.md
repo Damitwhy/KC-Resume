@@ -2,7 +2,9 @@
 - Simple Resume with Django, HTML, CSS, Java Script, Python, PostgreSQL and Bootstrap5.
   - A Resume web application to display information populated from a PostgreSQL database.
   - User information uploaded via admin panel.
-  - Model.py can be restructured to include other Bio information.
+  - Model.py can be restructured to include other Bio information including a rewrite of home.html to display new Bio info.
+    - Resume image, Contact, Education, Expertise, language, About Me, Projects, References, Recommendations, Contact Message, Projects Page.
+  - Setup on Apache2 server with Venv setup for Linux Debian environment.
   ![Am I responsive Image](/readme/amiresponsive.png)
 
 ## Credits
