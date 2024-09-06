@@ -29,6 +29,9 @@ def projects(request):
     return render(request, 'core/projects.html')
 
 def contact(request):
+    user = User.objects.get(username='Ken')
+    contact_info = ContactInfo.objects.filter(user=user).first()
+    
     if request.method == 'POST':
         form = ContactMessageForm(request.POST)
         if form.is_valid():
@@ -41,4 +44,8 @@ def contact(request):
     else:
         form = ContactMessageForm()
 
-    return render(request, 'core/contact.html', {'form': form})
+    context = {
+        'form': form,
+        'contact_info': contact_info,
+    }
+    return render(request, 'core/contact.html', context)
