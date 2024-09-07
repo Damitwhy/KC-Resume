@@ -455,6 +455,13 @@ body {
   border-radius: 8px;
 }
 
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
 .messages {
   text-align: center;
   list-style-type: none;
