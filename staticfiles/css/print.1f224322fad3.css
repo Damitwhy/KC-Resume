@@ -1,0 +1,35 @@
+/* Hide elements that are not needed in the print version */
+header, footer, .navigation, .social-links {
+    display: none;
+  }
+  
+  /* Ensure the main content is visible and properly formatted */
+  main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Adjust font sizes and colors for better readability */
+  body {
+    font-size: 12pt;
+    color: #000;
+    background: #fff;
+  }
+  
+  /* Remove unnecessary margins and paddings */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ensure images are properly sized */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Add page breaks where necessary */
+  .page-break {
+    page-break-before: always;
+  }
