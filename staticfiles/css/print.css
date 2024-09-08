@@ -1,35 +1,61 @@
 /* Hide elements that are not needed in the print version */
-header, footer, .navigation, .social-links {
-    display: none;
-  }
-  
-  /* Ensure the main content is visible and properly formatted */
-  main {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Adjust font sizes and colors for better readability */
-  body {
-    font-size: 12pt;
-    color: #000;
-    background: #fff;
-  }
-  
-  /* Remove unnecessary margins and paddings */
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Ensure images are properly sized */
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Add page breaks where necessary */
-  .page-break {
-    page-break-before: always;
-  }
+.navbar, footer, .navigation, .social-links, .recommendations-info {
+  display: none;
+}
+
+/* Ensure the main content is visible and properly formatted */
+main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Adjust font sizes and colors for better readability */
+body {
+
+  font-size: 12pt;
+  color: #000;
+  background: #fff;
+}
+
+/* Remove unnecessary margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-pic-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* Ensure images are properly sized */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide the image inside the header */
+.header-image {
+  display: none;
+}
+
+/* Add page breaks where necessary */
+.page-break {
+  page-break-before: always;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: column; /* Ensure the items are stacked vertically */
+}
+
+/* Reorder the sections */
+.aboutme-info {
+  order: 1; /* Order this section first */
+}
+
+.contact-info {
+  order: 2; /* Order this section second */
+}
