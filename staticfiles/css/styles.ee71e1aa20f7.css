@@ -29,7 +29,7 @@ body {
   color: #000000;
   background-color: #ffffff;
   
-  /* background-image: url("../images/backgrounds/pexels-ritesh-singh-64833387-14570124.jpg"); */
+  /* background-image: url("../images/backgrounds/pexels-ritesh-singh-64833387-14570124.25a7a6ba6ed5.jpg"); */
   /* background-repeat: no-repeat;
   background-size: cover;
   background-position: center; */
@@ -49,7 +49,7 @@ body {
 
 .article-title {
   font-size: 10vw;
-  background-image:url("../images/backgrounds/pexels-pixabay-66869.jpg");
+  background-image:url("../images/backgrounds/pexels-pixabay-66869.98320caecf90.jpg");
   background-size: cover;
   background-position: center;
   background-clip: text;
@@ -60,7 +60,7 @@ body {
 }
 .resume-title {
   font-size: 6vw;
-  background-image:url("../images/backgrounds/pexels-suzyhazelwood-1629236.jpg");
+  background-image:url("../images/backgrounds/pexels-suzyhazelwood-1629236.ef9ef6bbf3e6.jpg");
   background-size: cover;
   background-position: center;
   background-clip: text;
@@ -73,7 +73,7 @@ body {
 
 .resume-title-text {
   font-size: 2vw;
-  background-image:url("../images/backgrounds/pexels-suzyhazelwood-1629236.jpg");
+  background-image:url("../images/backgrounds/pexels-suzyhazelwood-1629236.ef9ef6bbf3e6.jpg");
   background-size: cover;
   background-position: center;
   background-clip: text;
@@ -101,7 +101,7 @@ body {
 }
 .article-h2 {
   font-size: 6vw;
-  background-image:url("../images/backgrounds/pexels-neosiam-579216.jpg");
+  background-image:url("../images/backgrounds/pexels-neosiam-579216.dbc7b7b5a8c8.jpg");
   background-size: cover;
   background-position: center;
   background-clip: text;
@@ -259,7 +259,7 @@ body {
 }
 
 .contact {
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/backgrounds/pexels-d-ng-nhan-324384-1529881.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/backgrounds/pexels-d-ng-nhan-324384-1529881.b2082d487a63.jpg");
   background-size: cover;
   background-position: center center;
   height: 80vh;
