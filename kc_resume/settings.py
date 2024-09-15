@@ -1,13 +1,13 @@
 import os
 import sys
-
+import dj_database_url
 from pathlib import Path
 from dotenv import load_dotenv
 
 from decouple import config
 
 # Imports env.py file
-import dj_database_url
+
 # Import environment variables from env.py
 if os.path.isfile('env.py'):
     import env
@@ -44,7 +44,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
  #os.environ.get('SECRET_KEY') #
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False #os.environ.get("DEBUG", "") == "1"
+DEBUG = True #os.environ.get("DEBUG", "") == "1"
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.ws.codeinstitute-ide.net', '.herokuapp.com','purerarez.co.uk', 'www.purerarez.co.uk' ]
 

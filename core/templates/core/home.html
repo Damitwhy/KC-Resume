@@ -73,7 +73,7 @@
                 <p><strong>Coders Coffee House</strong> Code Institute Project Start Date: 5/05/2024 lasting 5 days <a
                         target="_blank" href="https://github.com/Damitwhy/Coders-Coffee-House">Github Repo</a> <a
                         target="_blank" href="https://damitwhy.github.io/Coders-Coffee-House/">Deployment</a></p>
-                <a href="{% url 'projects' %}">View More Detail</a>
+                <a href="{% url 'projects' %}">View More Detail <span class="visually-hidden">on Projects page</span></a>
             </div>
             <div class="container-info reference-info">
                 <h2 class="text-center">References</h2>
@@ -100,7 +100,7 @@
                                 <span class="truncated-text">{{ recommendation.text }}</span>
                                 <span class="full-text" style="display: none;">{{ recommendation.text }}</span>
                             </p>
-                            <button class="toggle-btn mb-2" onclick="toggleText(this)">Read more</button>
+                            <button class="toggle-btn mb-2" onclick="toggleText(this)">Read more <span class="visually-hidden"> on this recommendation</span></button>
                             <p>by <a target="_blank" href="{{ recommendation.contact_link }}">{{ recommendation.name }}</a></p>
                         </div>
                     </div>
